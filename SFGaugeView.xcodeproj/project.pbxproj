@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB12A2EA1E4782A600FE9F0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2E91E4782A600FE9F0B /* AppDelegate.swift */; };
+		CB12A2EC1E4782A600FE9F0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2EB1E4782A600FE9F0B /* ViewController.swift */; };
+		CB12A2EF1E4782A600FE9F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2ED1E4782A600FE9F0B /* Main.storyboard */; };
+		CB12A2F11E4782A600FE9F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F01E4782A600FE9F0B /* Assets.xcassets */; };
+		CB12A2F41E4782A600FE9F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F21E4782A600FE9F0B /* LaunchScreen.storyboard */; };
+		CB12A2FF1E4782A600FE9F0B /* SFGaugeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2FE1E4782A600FE9F0B /* SFGaugeViewTests.swift */; };
+		CB12A30A1E4782A600FE9F0B /* SFGaugeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A3091E4782A600FE9F0B /* SFGaugeViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB12A2FB1E4782A600FE9F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB12A2DE1E4782A600FE9F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB12A2E51E4782A600FE9F0B;
+			remoteInfo = SFGaugeView;
+		};
+		CB12A3061E4782A600FE9F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB12A2DE1E4782A600FE9F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB12A2E51E4782A600FE9F0B;
+			remoteInfo = SFGaugeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB12A2E61E4782A600FE9F0B /* SFGaugeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFGaugeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB12A2E91E4782A600FE9F0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB12A2EB1E4782A600FE9F0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB12A2EE1E4782A600FE9F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB12A2F01E4782A600FE9F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB12A2F31E4782A600FE9F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB12A2F51E4782A600FE9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12A2FA1E4782A600FE9F0B /* SFGaugeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFGaugeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB12A2FE1E4782A600FE9F0B /* SFGaugeViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGaugeViewTests.swift; sourceTree = "<group>"; };
+		CB12A3001E4782A600FE9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12A3051E4782A600FE9F0B /* SFGaugeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFGaugeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB12A3091E4782A600FE9F0B /* SFGaugeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGaugeViewUITests.swift; sourceTree = "<group>"; };
+		CB12A30B1E4782A600FE9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB12A2E31E4782A600FE9F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A2F71E4782A600FE9F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A3021E4782A600FE9F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB12A2DD1E4782A600FE9F0B = {
+			isa = PBXGroup;
+			children = (
+				CB12A2E81E4782A600FE9F0B /* SFGaugeView */,
+				CB12A2FD1E4782A600FE9F0B /* SFGaugeViewTests */,
+				CB12A3081E4782A600FE9F0B /* SFGaugeViewUITests */,
+				CB12A2E71E4782A600FE9F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB12A2E71E4782A600FE9F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2E61E4782A600FE9F0B /* SFGaugeView.app */,
+				CB12A2FA1E4782A600FE9F0B /* SFGaugeViewTests.xctest */,
+				CB12A3051E4782A600FE9F0B /* SFGaugeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB12A2E81E4782A600FE9F0B /* SFGaugeView */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2E91E4782A600FE9F0B /* AppDelegate.swift */,
+				CB12A2EB1E4782A600FE9F0B /* ViewController.swift */,
+				CB12A2ED1E4782A600FE9F0B /* Main.storyboard */,
+				CB12A2F01E4782A600FE9F0B /* Assets.xcassets */,
+				CB12A2F21E4782A600FE9F0B /* LaunchScreen.storyboard */,
+				CB12A2F51E4782A600FE9F0B /* Info.plist */,
+			);
+			path = SFGaugeView;
+			sourceTree = "<group>";
+		};
+		CB12A2FD1E4782A600FE9F0B /* SFGaugeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A2FE1E4782A600FE9F0B /* SFGaugeViewTests.swift */,
+				CB12A3001E4782A600FE9F0B /* Info.plist */,
+			);
+			path = SFGaugeViewTests;
+			sourceTree = "<group>";
+		};
+		CB12A3081E4782A600FE9F0B /* SFGaugeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A3091E4782A600FE9F0B /* SFGaugeViewUITests.swift */,
+				CB12A30B1E4782A600FE9F0B /* Info.plist */,
+			);
+			path = SFGaugeViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB12A2E51E4782A600FE9F0B /* SFGaugeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB12A30E1E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeView" */;
+			buildPhases = (
+				CB12A2E21E4782A600FE9F0B /* Sources */,
+				CB12A2E31E4782A600FE9F0B /* Frameworks */,
+				CB12A2E41E4782A600FE9F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFGaugeView;
+			productName = SFGaugeView;
+			productReference = CB12A2E61E4782A600FE9F0B /* SFGaugeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB12A2F91E4782A600FE9F0B /* SFGaugeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB12A3111E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeViewTests" */;
+			buildPhases = (
+				CB12A2F61E4782A600FE9F0B /* Sources */,
+				CB12A2F71E4782A600FE9F0B /* Frameworks */,
+				CB12A2F81E4782A600FE9F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB12A2FC1E4782A600FE9F0B /* PBXTargetDependency */,
+			);
+			name = SFGaugeViewTests;
+			productName = SFGaugeViewTests;
+			productReference = CB12A2FA1E4782A600FE9F0B /* SFGaugeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB12A3041E4782A600FE9F0B /* SFGaugeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB12A3141E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeViewUITests" */;
+			buildPhases = (
+				CB12A3011E4782A600FE9F0B /* Sources */,
+				CB12A3021E4782A600FE9F0B /* Frameworks */,
+				CB12A3031E4782A600FE9F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB12A3071E4782A600FE9F0B /* PBXTargetDependency */,
+			);
+			name = SFGaugeViewUITests;
+			productName = SFGaugeViewUITests;
+			productReference = CB12A3051E4782A600FE9F0B /* SFGaugeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB12A2DE1E4782A600FE9F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Krishnan Sriram Rama";
+				TargetAttributes = {
+					CB12A2E51E4782A600FE9F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V252TK6927;
+						ProvisioningStyle = Automatic;
+					};
+					CB12A2F91E4782A600FE9F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V252TK6927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB12A2E51E4782A600FE9F0B;
+					};
+					CB12A3041E4782A600FE9F0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V252TK6927;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB12A2E51E4782A600FE9F0B;
+					};
+				};
+			};
+			buildConfigurationList = CB12A2E11E4782A600FE9F0B /* Build configuration list for PBXProject "SFGaugeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB12A2DD1E4782A600FE9F0B;
+			productRefGroup = CB12A2E71E4782A600FE9F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB12A2E51E4782A600FE9F0B /* SFGaugeView */,
+				CB12A2F91E4782A600FE9F0B /* SFGaugeViewTests */,
+				CB12A3041E4782A600FE9F0B /* SFGaugeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB12A2E41E4782A600FE9F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB12A2F41E4782A600FE9F0B /* LaunchScreen.storyboard in Resources */,
+				CB12A2F11E4782A600FE9F0B /* Assets.xcassets in Resources */,
+				CB12A2EF1E4782A600FE9F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A2F81E4782A600FE9F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A3031E4782A600FE9F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB12A2E21E4782A600FE9F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB12A2EC1E4782A600FE9F0B /* ViewController.swift in Sources */,
+				CB12A2EA1E4782A600FE9F0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A2F61E4782A600FE9F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB12A2FF1E4782A600FE9F0B /* SFGaugeViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB12A3011E4782A600FE9F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB12A30A1E4782A600FE9F0B /* SFGaugeViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB12A2FC1E4782A600FE9F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB12A2E51E4782A600FE9F0B /* SFGaugeView */;
+			targetProxy = CB12A2FB1E4782A600FE9F0B /* PBXContainerItemProxy */;
+		};
+		CB12A3071E4782A600FE9F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB12A2E51E4782A600FE9F0B /* SFGaugeView */;
+			targetProxy = CB12A3061E4782A600FE9F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB12A2ED1E4782A600FE9F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB12A2EE1E4782A600FE9F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB12A2F21E4782A600FE9F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB12A2F31E4782A600FE9F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB12A30C1E4782A600FE9F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB12A30D1E4782A600FE9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB12A30F1E4782A600FE9F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB12A3101E4782A600FE9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB12A3121E4782A600FE9F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFGaugeView.app/SFGaugeView";
+			};
+			name = Debug;
+		};
+		CB12A3131E4782A600FE9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFGaugeView.app/SFGaugeView";
+			};
+			name = Release;
+		};
+		CB12A3151E4782A600FE9F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SFGaugeView;
+			};
+			name = Debug;
+		};
+		CB12A3161E4782A600FE9F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = V252TK6927;
+				INFOPLIST_FILE = SFGaugeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.components.swift.SFGaugeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SFGaugeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB12A2E11E4782A600FE9F0B /* Build configuration list for PBXProject "SFGaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB12A30C1E4782A600FE9F0B /* Debug */,
+				CB12A30D1E4782A600FE9F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB12A30E1E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB12A30F1E4782A600FE9F0B /* Debug */,
+				CB12A3101E4782A600FE9F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB12A3111E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB12A3121E4782A600FE9F0B /* Debug */,
+				CB12A3131E4782A600FE9F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB12A3141E4782A600FE9F0B /* Build configuration list for PBXNativeTarget "SFGaugeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB12A3151E4782A600FE9F0B /* Debug */,
+				CB12A3161E4782A600FE9F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB12A2DE1E4782A600FE9F0B /* Project object */;
+}
