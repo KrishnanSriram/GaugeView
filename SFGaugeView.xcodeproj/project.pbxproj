@@ -14,6 +14,9 @@
 		CB12A2F41E4782A600FE9F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB12A2F21E4782A600FE9F0B /* LaunchScreen.storyboard */; };
 		CB12A2FF1E4782A600FE9F0B /* SFGaugeViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A2FE1E4782A600FE9F0B /* SFGaugeViewTests.swift */; };
 		CB12A30A1E4782A600FE9F0B /* SFGaugeViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A3091E4782A600FE9F0B /* SFGaugeViewUITests.swift */; };
+		CB12A3181E47855B00FE9F0B /* SFGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A3171E47855B00FE9F0B /* SFGaugeView.swift */; };
+		CB12A31B1E478C1E00FE9F0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB12A31A1E478C1E00FE9F0B /* CoreGraphics.framework */; };
+		CB12A31D1E480DF800FE9F0B /* UIImage+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB12A31C1E480DF800FE9F0B /* UIImage+Rotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CB12A3051E4782A600FE9F0B /* SFGaugeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFGaugeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB12A3091E4782A600FE9F0B /* SFGaugeViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFGaugeViewUITests.swift; sourceTree = "<group>"; };
 		CB12A30B1E4782A600FE9F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB12A3171E47855B00FE9F0B /* SFGaugeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFGaugeView.swift; sourceTree = "<group>"; };
+		CB12A31A1E478C1E00FE9F0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB12A31C1E480DF800FE9F0B /* UIImage+Rotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Rotation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB12A31B1E478C1E00FE9F0B /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +88,7 @@
 				CB12A2FD1E4782A600FE9F0B /* SFGaugeViewTests */,
 				CB12A3081E4782A600FE9F0B /* SFGaugeViewUITests */,
 				CB12A2E71E4782A600FE9F0B /* Products */,
+				CB12A3191E478C1E00FE9F0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +111,8 @@
 				CB12A2F01E4782A600FE9F0B /* Assets.xcassets */,
 				CB12A2F21E4782A600FE9F0B /* LaunchScreen.storyboard */,
 				CB12A2F51E4782A600FE9F0B /* Info.plist */,
+				CB12A3171E47855B00FE9F0B /* SFGaugeView.swift */,
+				CB12A31C1E480DF800FE9F0B /* UIImage+Rotation.swift */,
 			);
 			path = SFGaugeView;
 			sourceTree = "<group>";
@@ -123,6 +133,14 @@
 				CB12A30B1E4782A600FE9F0B /* Info.plist */,
 			);
 			path = SFGaugeViewUITests;
+			sourceTree = "<group>";
+		};
+		CB12A3191E478C1E00FE9F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB12A31A1E478C1E00FE9F0B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB12A2EC1E4782A600FE9F0B /* ViewController.swift in Sources */,
+				CB12A31D1E480DF800FE9F0B /* UIImage+Rotation.swift in Sources */,
 				CB12A2EA1E4782A600FE9F0B /* AppDelegate.swift in Sources */,
+				CB12A3181E47855B00FE9F0B /* SFGaugeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
